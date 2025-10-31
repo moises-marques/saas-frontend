@@ -1,0 +1,42 @@
+/* sidebar.module.css */
+
+/* Container do sidebar */
+.sidebar {
+  width: 14rem; /* 224px */
+  background-color: #ffffff;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Lista de links de navegação */
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Link normal */
+.navLink {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  color: #374151; /* cinza escuro */
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Link quando hover */
+.navLink:hover {
+  background-color: #f3f4f6; /* cinza claro */
+  color: #1d4ed8; /* azul */
+}
+
+/* Link ativo */
+.navLinkActive {
+  background-color: #2563eb; /* azul */
+  color: #ffffff;
+  font-weight: 600;
+}
